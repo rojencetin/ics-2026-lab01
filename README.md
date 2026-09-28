@@ -27,7 +27,7 @@ git add -A && git commit -m "Lab 1" && git push    # submit (your last push befo
 
 ## Part A · Warm-up: meow, with a custom block
 
-Meow: PASTE-YOUR-PROJECT-LINK-HERE
+Meow: https://scratch.mit.edu/projects/1385776357
 
 ## Part B · Your own project
 
