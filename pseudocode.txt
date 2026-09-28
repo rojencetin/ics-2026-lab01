@@ -1,0 +1,15 @@
+Lab 1 · Part D · Pseudocode
+Write an algorithm for ONE of these, as numbered steps, the way we wrote the phone-book algorithm in class:
+  (a) find the largest number in a stack of exam papers, one paper at a time;
+  (b) make a cup of tea for a robot that knows nothing;
+  (c) guess a number between 1 and 100 that a friend is thinking of, using yes/no questions.
+Rules: at least 6 numbered lines; use at least one "if" and one loop ("go back to line N", "repeat" or "while").
+Replace the example below with your own.
+
+1  Pick up the first paper
+2  Remember its number as "largest so far"
+3  If there are no papers left, go to line 7
+4  Pick up the next paper
+5  If its number is bigger than "largest so far", remember it as "largest so far"
+6  Go back to line 3
+7  Announce "largest so far"

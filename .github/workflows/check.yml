@@ -1,0 +1,26 @@
+# Runs the lab checks on every push and shows the result as ✅ / ❌ on your commits.
+# (Skipped for repositories inside the course organization, where Classroom 50 grades instead.)
+name: check
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  check:
+    if: github.repository_owner != 'FiratUniversity-IJDP-SoftEng'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q -r requirements.txt
+      - name: python3 check.py
+        run: |
+          set -o pipefail
+          python3 check.py | tee result.txt
+      - name: Summary
+        if: always()
+        run: |
+          { echo '### Lab checks'; echo '```'; cat result.txt 2>/dev/null || echo 'checks did not run'; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

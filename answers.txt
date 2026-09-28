@@ -1,0 +1,25 @@
+# Lab 1 · Part C · Bits and bytes
+# Fill in the value after each "=" sign. Do not change the names before the "=".
+# Binary answers must be exactly 8 bits, e.g. 00000101.
+
+# 1. Write 13 in binary (8 bits).
+q1 =
+
+# 2. Write 42 in binary (8 bits).
+q2 =
+
+# 3. Write 100 in binary (8 bits).
+q3 =
+
+# 4. What decimal number is 10101010?
+q4 =
+
+# 5. Decode these two ASCII bytes as text: 01001000 01101001
+q5 =
+
+# 6. How many different values can one byte hold?
+q6 =
+
+# 7. Binary search on a sorted list of 1 000 000 000 (one billion) items: about how many
+#    steps in the worst case? (A whole number; the lecture table has it.)
+q7 =
