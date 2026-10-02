@@ -15,7 +15,7 @@ q3 =01100100
 q4 =170
 
 # 5. Decode these two ASCII bytes as text: 01001000 01101001
-q5 =Pi
+q5 =Hi
 
 # 6. How many different values can one byte hold?
 q6 =256
