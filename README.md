@@ -35,4 +35,4 @@ Project: https://scratch.mit.edu/projects/1387361378
 
 One or two sentences on what it does and which custom block, variable, loop, condition and event it uses:
 
-(write here)
+This project counts down to zero and meows every time the space key pressed.It uses the "when space key pressed" event,the "score" variable,the "meowandsay" custom block,a "repeat 1" loop and an "if-else" condition to check count reaches 0
