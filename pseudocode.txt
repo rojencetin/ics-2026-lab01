@@ -6,10 +6,10 @@ Write an algorithm for ONE of these, as numbered steps, the way we wrote the pho
 Rules: at least 6 numbered lines; use at least one "if" and one loop ("go back to line N", "repeat" or "while").
 Replace the example below with your own.
 
-1  Pick up the first paper
-2  Remember its number as "largest so far"
-3  If there are no papers left, go to line 7
-4  Pick up the next paper
-5  If its number is bigger than "largest so far", remember it as "largest so far"
-6  Go back to line 3
-7  Announce "largest so far"
+1  Fill the kettle with water and turn it on 
+2  If water is not boiling,go back to line 2
+3  Put the tea bag in the cup
+4  Pour hot water into the cup 
+5  If the is tea not strong enough,wait 15 seconds and go back to line 5
+6  Take out the tea bag 
+7  Serve the tea
